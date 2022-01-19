@@ -1,0 +1,19 @@
+{
+  "name": "interactive-pricing-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virusxd521/interactive-pricee-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virusxd521/interactive-pricee-box/issues"
+  },
+  "homepage": "https://github.com/virusxd521/interactive-pricee-box#readme"
+}
