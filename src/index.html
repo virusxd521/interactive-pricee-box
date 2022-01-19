@@ -4,32 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/scss/style.css">
 </head>
 
 <body class="body">
-  <h1>Simple, traffic-based pricing</h1>
-  <h2>sign-up for our 30-day trial. No credit card required.</h2>
-  <form>
+  <h1 class="body__header--primary">Simple, traffic-based pricing</h1>
+  <h2 class="body__header--secondary">sign-up for our 30-day trial. No credit card required.</h2>
+  <form class="form">
     <div class="form__pricing">
       <p class="pricing__pageviews">100k PAGEVIEWS</p>
-      <p class="pricing__amount"></p>
+      <p class="pricing__amount">$16.00 <span class="pricing__amount__span">/month</span></p>
     </div>
     <div class="form__buttons">
       <div class="buttons__range">
         <input type="range">
       </div>
       <div class="buttons__options">
-        <p>ssss</p>
-        <input type="checkbox">
-        <p></p>
-        <p></p>
-
-
-
+        <p class="options__monthly">Monthly Billing<p>
+        <input type="checkbox" class="checkbox">
+        <p class="options__yearly">Yearly Billing</p>
+        <p class="options__discount">25% discount</p>
       </div>
     </div>
-    <div class="form__info"></div>
-    <div class="form__submition"></div>
+    <div class="form__info">
+      <div class="form__info__description"></div>
+      <input type="submit" class="form__info__button">
+    </div>
+    
   </form>
 </body>
 
